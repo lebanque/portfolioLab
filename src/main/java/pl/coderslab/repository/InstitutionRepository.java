@@ -7,7 +7,6 @@ import pl.coderslab.model.Institution;
 
 import java.util.List;
 
-@Component
 @Repository
 public interface InstitutionRepository extends JpaRepository<Institution, Long> {
 

@@ -7,7 +7,7 @@ import javax.validation.constraints.NotBlank;
 
 @Data
 @Entity
-@Table(name = "institution")
+@Table(name = "institutions")
 public class Institution {
 
     @Id

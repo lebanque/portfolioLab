@@ -21,7 +21,7 @@
 <section class="stats">
     <div class="container container--85">
         <div class="stats--item">
-            <em>13</em>
+            <em>${quantity}</em>
 
             <h3>Oddanych worków</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est beatae, quod accusamus illum
@@ -87,6 +87,17 @@
             Możesz sprawdzić czym się zajmują.</p>
 
         <ul class="help--slides-items">
+
+            <%--
+           <c:forEach items="${institutions}" var="" varStatus="">
+           <td><c:out value="${institution.name}"/></td>
+            --%>
+                <%! int i; %>
+                <%for ( i = 0; i <= 3; i++){ %>
+                <font color = "green" size = "<%= i %>">
+                    JSP Tutorial
+                </font><br />
+                <%}%>
             <li>
                 <div class="col">
                     <div class="title">Fundacja "Dbam o Zdrowie"</div>
